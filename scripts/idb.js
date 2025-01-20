@@ -1,7 +1,3 @@
-
-//Ron Gerbi 205694268
-//Omer Zafrany 318877420
-
 // Function to open the IndexedDB database 
 export async function openCaloriesDB(dbName, version) {
   const indexedDB =
