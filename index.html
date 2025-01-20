@@ -10,7 +10,7 @@
             height: 100%;
             margin: 0;
             display: flex;
-            justify-content: left; /* Center the body content horizontally */
+            justify-content: center; /* Center the body content horizontally */
             align-items: flex-start; /* Align the container towards the top */
             text-align: left;
             background-image: url('foodcalc/calcback.jpg');
@@ -19,6 +19,7 @@
             background-attachment: fixed; /* Keep the background fixed */
             padding-top: 50px; /* Add padding to the top */
             padding-bottom: 50px; /* Add padding to the bottom */
+            overflow-y: auto; /* Allow scrolling of the whole page */
         }
 
         .container {
@@ -29,6 +30,7 @@
             background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
             border-radius: 8px;
             padding: 20px; /* Add padding inside the container */
+            min-height: 400px; /* Ensure the container has a minimum height */
         }
 
         h1, h3 {
@@ -37,6 +39,13 @@
 
         label {
             font-weight: 500;
+        }
+
+        #reportResults {
+            margin-top: 30px;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly different background color for report section */
+            padding: 20px;
+            border-radius: 8px;
         }
     </style>
 </head>
