@@ -1,6 +1,3 @@
-//Ron Gerbi 205694268
-//Omer Zafrany 318877420
-
 import { openCaloriesDB, addCalories, getCaloriesByMonth } from './idb.js';
 
 // Create an object to hold the state (including the db reference)
